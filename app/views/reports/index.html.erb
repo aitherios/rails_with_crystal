@@ -1,0 +1,21 @@
+<%
+  
+  # Defining report file path.
+  puts report_file_name = "rpts/CrystalReport1.rpt"
+  
+  # Open report.
+  report_document = com.crystaldecisions.sdk.occa.report.application.ReportClientDocument.new
+  report_document.open(report_file_name,0)
+  
+  # Get report source.
+  report_source = report_document.getReportSource
+  
+  # Create report viewer.
+  report_viewer = com.crystaldecisions.report.web.viewer.CrystalReportViewer.new
+  report_viewer.setReportSource(report_source)
+  report_viewer.setOwnPage(true)
+
+  # Show report in report viewer.
+  report_viewer.processHttpRequest(servlet_request, servlet_response, servlet_context, nil);
+  
+%>
