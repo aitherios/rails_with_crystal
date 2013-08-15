@@ -1,5 +1,5 @@
-assc
-.sass-cache
+*.rbc
+*.sassc
 capybara-*.html
 .rspec
 /.bundle
