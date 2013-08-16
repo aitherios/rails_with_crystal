@@ -199,5 +199,5 @@ O uso desse projeto é bastante simples.
 
 # Contato.
 
-Você pode entrar em contato comigo através do GitHUB, no meu [blog](http://www.geekmind.com.br) ou pelo twitter [@GeekMindBR](http://www.twitter.com/GeekMindBR).
+Você pode entrar em contato comigo através do GitHUB, no meu [blog](http://www.geekmind.com.br) ou pelo twitter [@GeekMindBR](http://www.twitter.com/_geekmind).
 
