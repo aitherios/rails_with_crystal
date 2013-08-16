@@ -197,4 +197,7 @@ O uso desse projeto é bastante simples.
 	
 * Criei um script na raiz da aplicação chamado __start_trinidad.sh__ para simplificar o uso.
 
+# Contato.
+
+Você pode entrar em contato comigo através do GitHUB, no meu [blog](http://www.geekmind.com.br) ou pelo twitter [@GeekMindBR](http://www.twitter.com/GeekMindBR).
 
