@@ -187,7 +187,7 @@ Tente acessar a aplicação pelo endereço http://localhost:3000. Se tudo ocorre
 	
 	```
 	
-* Tive problemas de falta de memoria (java.lang.OutOfMemory) que foram resolvidos com o devido ajuste de memória.
+* Tive problemas de falta de memoria (java.lang.OutOfMemory) que foram resolvidos com o devido ajuste de memória recomendado pelo desenvolvedor do trinidad na [página de performance tunning do wiki do projeto](https://github.com/trinidad/trinidad/wiki/Performance-Tuning).
 
 	```bash
 	$ jruby --server -J-Xmx2048m -J-Xms2048m -J-Xmn512m -J-XX:MaxPermSize=512m -S trinidad --threadsafe
