@@ -26,25 +26,27 @@ A configuração da aplicação envolve, primeiramente o esforço para configura
 
 # Uso desse projeto.
 
-O uso desse projeto é bastante simples. Primeiro, clone-o para um repositório local...
+O uso desse projeto é bastante simples. 
+
+* Clone-o para um repositório local.
 
 	```bash
 	$ git clone git@github.com:geekmind/rails_with_crystal.git
 	```
 	
-… instale as dependência…
+* Instale as dependências.
 	
 	```bash
 	$ bundle install
 	```
 	
-… e inicie aplicação usando o [Trinidad](https://github.com/trinidad/trinidad).
+* Inicie aplicação usando o [Trinidad](https://github.com/trinidad/trinidad).
 
 	```bash
-	$ trinidad
+	$ sh ./start_trinidad.sh
 	```
 	
-Tente acessar a aplicação pelo endereço http://localhost:3000. Se tudo ocorreu bem, o Crystal Report Viewer deve ser apresentado com um relatório de exemplo.
+* Tente acessar a aplicação pelo endereço http://localhost:3000. Se tudo ocorreu bem, o Crystal Report Viewer deve ser apresentado com um relatório de exemplo.
 
 # Explorando o projeto.
 
