@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 
-jruby --server -J-Xmx2048m -J-Xms2048m -J-Xmn512m -S trinidad --threadsafe
+jruby --server -S trinidad --threadsafe
+# ulimit -n 16384; jruby --server -J-Xmx2048m -J-Xms1024m -J-Xmn512m -J-XX:MaxPermSize=512m -S trinidad -e production --threadsafe --config config/trinidad.yml

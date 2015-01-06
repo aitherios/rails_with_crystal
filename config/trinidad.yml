@@ -1,0 +1,5 @@
+---
+  address: '0.0.0.0'
+  http:
+    maxThreads: 200
+    connectionTimeout: 15000
