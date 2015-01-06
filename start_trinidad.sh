@@ -1,1 +1,3 @@
-jruby --server -J-Xmx2048m -J-Xms2048m -J-Xmn512m -J-XX:MaxPermSize=512m -S trinidad --threadsafe
+#!/usr/bin/env sh
+
+jruby --server -J-Xmx2048m -J-Xms2048m -J-Xmn512m -S trinidad --threadsafe
